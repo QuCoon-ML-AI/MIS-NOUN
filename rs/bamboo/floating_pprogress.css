@@ -1,0 +1,21 @@
+
+.float_progress
+{
+    position:absolute;
+    top:20px; 
+    right:250px; 
+    width:850px;
+    max-height:700px;
+}
+
+
+@media screen and (max-width: 800px) 
+{
+    .float_progress
+    {
+        position:unset;
+        margin-top:35px;
+        max-height:70vh;
+        width:80vw;
+    }
+}

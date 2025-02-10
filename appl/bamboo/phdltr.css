@@ -1,0 +1,83 @@
+#conf_box_loc
+{
+    width:370px;
+}
+
+#tel_phd_available
+{
+    width:480px;
+}
+
+li, dd
+{
+    text-align:justify;
+    width:99%;
+    border:none;
+    cursor:default;
+    line-height:1.8;
+    padding:0px;
+}
+
+li:hover {background: none; cursor:default;}
+
+dd, dt{text-align:left; width:100%}
+
+#application_steps
+{
+    position:absolute;
+    top:63px;
+    right:15px;
+    width:725px; 
+}
+
+.appl_left_child_div_child
+{
+    display:flex; 
+    flex-flow: row;
+    justify-content: flex-start;
+    gap:0px;
+    flex:100%;
+    height:auto; 
+    text-align:left;
+    /* margin-bottom:4px; */
+}
+
+#log_div
+{
+    text-align:right;
+}
+
+@media screen and (max-width: 800px) 
+{
+    #conf_box_loc
+    {
+        width:85vw;
+    }
+
+    #tel_phd_available
+    {
+        width:85vw;
+    }
+
+    #application_steps
+    {
+        margin:auto;
+        width:85vw; 
+    }
+
+    li, dd
+    {
+        line-height:2.5;
+        height:auto;
+    }
+
+    .appl_left_child_div_child
+    {
+        flex-direction: column;
+    } 
+
+    #log_div
+    {
+        text-align: center;
+    }
+}

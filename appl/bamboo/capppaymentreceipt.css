@@ -1,0 +1,127 @@
+#conf_box_loc
+{
+    width:370px;
+}
+
+#tel_phd_available
+{
+    width:480px;
+}
+
+li, dd
+{
+    text-align:left;
+    width:99%;
+    border:none;
+    cursor:default;
+    height:32px;
+    line-height:1.5;
+}
+
+li:hover {background: none; cursor:default;}
+
+dd, dt{text-align:left; width:100%}
+
+#application_steps
+{
+    position:absolute;
+    top:63px;
+    right:15px;
+    width:725px; 
+}
+
+.appl_left_child_div_child
+{
+    display:flex; 
+    flex-flow: row;
+    justify-content: flex-start;
+    gap:4px;
+    flex:100%;
+    height:auto; 
+    text-align:left;
+    margin-bottom:4px;
+}
+
+.prog_cat_div1
+{
+    flex:5%;
+}                              
+.prog_cat_div2
+{
+    flex:5%;
+}                              
+.prog_cat_div3
+{
+    flex:15%;
+}                            
+.prog_cat_div4
+{
+    flex:75%;
+}
+
+.remita_logo
+{
+    height:100%; width:auto
+}
+
+.login_button
+{
+    width:20%;
+}
+
+@media screen and (max-width: 800px) 
+{
+    #conf_box_loc
+    {
+        width:85vw;
+    }
+
+    #tel_phd_available
+    {
+        width:85vw;
+    }
+
+    #application_steps
+    {
+        margin:auto;
+        width:85vw; 
+    }
+
+    li, dd
+    {
+        line-height:2.5;
+        height:auto;
+    }
+
+    .prog_cat_div1
+    {
+        flex:5%;
+    }                              
+    .prog_cat_div2
+    {
+        flex:5%;
+    }                              
+    .prog_cat_div3
+    {
+        flex:55%;
+    }                            
+    .prog_cat_div4
+    {
+        flex:35%;
+    }
+
+    .remita_logo
+    {
+        width:100%
+    }
+
+    .login_button
+    {
+        width:100%;
+    }
+
+    .appl_left_child_div_child
+    {
+        line-height: 1.3;
+    }
+}

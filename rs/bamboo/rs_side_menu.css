@@ -1,0 +1,185 @@
+ul {
+    list-style-type:none;
+    margin:0;
+    margin-left:5px;
+    padding:0;
+    height:auto;
+    width:95%;
+}         
+
+ul li {
+    position:relative;
+    text-align:left;
+    cursor:pointer;
+    height:18px;
+
+    border-radius:3px;
+    margin-top:2px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-indent:10px;
+
+    width:98%;
+    background-color: #eff5f0;
+}
+
+.li_submenu_header
+{
+    background-color: #caddcd;
+}
+
+.li_submenu_header:hover {
+    background:#caddcd;
+    box-shadow: none;
+    cursor:default;
+}
+
+ul ul {
+    position:absolute;
+    top:30px;
+    left:73px;
+    display:none;
+    z-index:-1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left:5px;
+    background:#bacab3;
+}
+
+ul ul:hover {
+    background:#FFFFFF;
+}  
+
+
+ul li:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+ul li ul {
+    background:#FFFFFF;
+    opacity:1;
+}
+
+ul li ul li:hover {
+    background:#FFFFFF;
+}
+
+ul li:hover ul {
+    display:block;
+    z-index:3;
+}
+
+li ul li {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+.dul_li
+{
+    background-color: #FFFFFF;
+    color: #949494;
+}
+
+.dul_li:hover
+{
+    box-shadow:none;
+    cursor: not-allowed;
+}
+
+
+#intro_video
+{
+    width:525px;
+}
+
+#std_quali
+{
+    width: 170px;
+}
+
+#fee_msg
+{
+    line-height:2.5;
+}
+
+
+@media screen and (max-width: 800px) 
+{
+    .appl_left_child_div_child
+    {
+        flex-direction: column;
+    }
+
+    .calendar_grid
+    {
+        flex-direction: row;
+        flex-flow: nowrap;
+        line-height: 1.4;
+        white-space:normal;
+        text-overflow: ellipsis;
+    }
+
+    .appl_left_child_div_child > div
+    {
+        flex:100%;
+    }
+    .login_button
+    {
+        width:95%;
+    }                
+
+    #menu_bs_scrn
+    {
+        display:none;
+    }
+
+    .std_menu_cls
+    {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    #mobile_menu
+    {
+        display:block;
+    }
+
+    #menu_div
+    {
+        display:none;
+    }
+
+    #m_menu_div
+    {
+        background-color: #FFFFFF;
+        width:70vw;
+    }
+
+    
+    .mm2_button
+    {
+        text-align: left;
+        background-color: #FFFFFF;
+    }
+
+    #intro_video
+    {
+        width:70vw;
+    }
+
+    #std_quali
+    {
+        width: 100%;
+    }
+
+    #fee_msg
+    {
+        line-height:1.5;
+    }
+
+    ul ul {
+        left:10px;
+        width:160px;
+    }
+}

@@ -1,0 +1,164 @@
+.login_button
+{
+    width:20%;
+}
+
+#conf_box_loc
+{
+    width:370px;
+}
+
+#tel_phd_available
+{
+    width:480px;
+}
+
+li, dd
+{
+    text-align:left;
+    width:99%;
+    border:none;
+    cursor:default;
+    height:45px;
+    line-height:1.5;
+}
+
+li:hover {background: none; cursor:default;}
+
+dd, dt{text-align:left; width:100%}
+
+#application_steps
+{
+    position:absolute;
+    top:23px;
+    right:15px;
+    width:725px; 
+}
+
+.appl_left_child_div_child
+{
+    display:flex; 
+    flex-flow: row;
+    justify-content: flex-start;
+    gap:4px;
+    flex:100%;
+    height:auto; 
+    text-align:left;
+    margin-bottom:4px;
+}
+
+.prog_cat_div1
+{
+    flex:5%;
+}                              
+.prog_cat_div2
+{
+    flex:5%;
+}                              
+.prog_cat_div3
+{
+    flex:15%;
+}                            
+.prog_cat_div4
+{
+    flex:75%;
+}
+
+#remit_img
+{
+    height:80px; 
+    width:40%;
+}
+
+#dBirthDate
+{
+    width:98.7%;
+}
+
+.appl_left_child_div
+{
+    width:99.6%;
+}
+
+.lbl_beh:hover
+{
+    color:#860000;
+    font-weight:bold;
+}
+
+.cat_div:hover
+{
+    color:#53a662;
+}
+
+.cemba_cls
+{
+    height:35px;
+}
+
+@media screen and (max-width: 800px) 
+{
+    #conf_box_loc
+    {
+        width:85vw;
+    }
+
+    #tel_phd_available
+    {
+        width:85vw;
+    }
+
+    #application_steps
+    {
+        margin:auto;
+        width:85vw; 
+    }
+
+    li, dd
+    {
+        line-height:2.5;
+        height:auto;
+    }
+
+    .prog_cat_div1
+    {
+        flex:5%;
+    }                              
+    .prog_cat_div2
+    {
+        flex:5%;
+    }                              
+    .prog_cat_div3
+    {
+        flex:55%;
+    }                            
+    .prog_cat_div4
+    {
+        flex:35%;
+    }
+
+    .login_button
+    {
+        width:100%;
+    }
+
+    #remit_img
+    {
+        width:100%;
+    }
+    
+    #dBirthDate
+    {
+        width:95%;
+    }
+
+    .appl_left_child_div
+    {
+        flex:100%;
+    }
+
+    .cemba_cls
+    {
+        height:70px;
+    }
+}

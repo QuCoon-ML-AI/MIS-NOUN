@@ -1,0 +1,104 @@
+.appl_left_child_div_child
+{
+    display:flex; 
+    flex-flow: row;
+    justify-content: flex-start;
+    gap:4px;
+    flex:100%;
+    height:auto; 
+    text-align:left;
+    margin-bottom:4px;
+}
+.login_button, .rec_pwd_button
+{
+    width:20%;
+}
+
+#dBirthDate
+{
+    width:99%;
+}
+    
+.align_pp
+{
+    text-align:right;
+}
+
+#access_btn_div
+{
+    justify-content: flex-start;
+}
+
+#qual_btn_div
+{
+    justify-content: flex-end;
+}
+
+#guide_div
+{
+    line-height:1.7;
+}
+
+#sub_div
+{
+    justify-content: flex-end;
+}
+
+.cert_img_container
+{
+    background:#FFFFFF;
+    left:5px;
+    top:5px;
+    height:97%;
+    width:500px; 
+    box-shadow: 4px 4px 3px #888888;
+    position:absolute;
+    text-align:center; 
+    padding:5px;
+    border: 1px solid #696969;
+    opacity: 0.8;
+    z-Index:2;
+}
+
+@media screen and (max-width: 800px) 
+{
+    .login_button, .rec_pwd_button
+    {
+        width:100%;
+    }
+    
+    #dBirthDate
+    {
+        width:95%;
+    }
+    
+    .align_pp
+    {
+        text-align:center;
+    }
+
+    #qual_btn_div, #access_btn_div
+    {
+        justify-content:center;
+    }
+
+    #guide_div
+    {
+        line-height:1.8;
+    }
+
+    #sub_div
+    {
+        justify-content: center;
+    }
+
+    
+    .cert_img_container
+    {
+        background:#FFFFFF;
+        left:5px;
+        top:5px;
+        height:70vh;
+        width:85vw;
+    }
+}

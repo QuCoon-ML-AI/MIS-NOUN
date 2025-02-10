@@ -1,0 +1,186 @@
+.appl_left_child_div_child
+{
+    display:flex; 
+    flex-flow: row;
+    justify-content: flex-start;
+    gap:4px;
+    flex:100%;
+    height:auto; 
+    text-align:left;
+    margin-bottom:4px;
+}
+
+.login_button
+{
+    width:20%;
+}
+
+#menu_bs_scrn
+{
+    display:block;
+}
+
+#mobile_menu
+{
+    display:none;
+}
+
+#menu_div
+{
+    display:flex;
+    text-align: left;
+    width:98.7%;
+    background-color:#ffffff;
+}
+
+#m_menu_div
+{
+    display:none;
+}
+
+.appl_left_div 
+{
+    flex: 17%;
+}
+
+.appl_right_div 
+{
+    flex: 81%;
+}
+
+#intro_video
+{
+    width:525px;
+}
+
+#noticeboard
+{
+    width:525px;
+    max-height: 450px;
+}
+
+#std_quali
+{
+    width: 170px;
+}
+
+#fee_msg
+{
+    line-height:2.5;
+}
+
+#spec_img_div
+{
+    display: flex;
+}
+
+#gen_img_div
+{
+    display: flex;
+}
+
+
+@media screen and (max-width: 800px) 
+{
+    .appl_left_child_div_child
+    {
+        flex-direction: column;
+    }
+
+    .calendar_grid
+    {
+        flex-direction: row;
+        flex-flow: nowrap;
+        line-height: 1.4;
+        white-space:normal;
+        text-overflow: ellipsis;
+    }
+
+    .appl_left_child_div_child > div
+    {
+        flex:100%;
+    }
+    .login_button
+    {
+        width:95%;
+    }                
+
+    #menu_bs_scrn
+    {
+        display:none;
+    }
+
+    .std_menu_cls
+    {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    #mobile_menu
+    {
+        display:block;
+    }
+
+    #menu_div
+    {
+        display:none;
+    }
+
+    #m_menu_div
+    {
+        /* display:flex; */
+        background-color: #FFFFFF;
+        width:70vw;
+    }
+
+    
+    .mm2_button
+    {
+        text-align: left;
+        background-color: #FFFFFF;
+    }
+
+    #intro_video
+    {
+        width:70vw;
+        max-height:85vh;
+        overflow:auto; 
+        overflow-x: hidden;
+    }
+
+    #noticeboard
+    {
+        width:70vw;
+        max-height:85vh;
+        overflow:auto; 
+        overflow-x: hidden;
+    }
+
+    
+
+    #std_quali
+    {
+        width: 100%;
+    }
+
+    #fee_msg
+    {
+        line-height:1.5;
+    }
+
+    ul ul {
+        left:10px;
+        width:160px;
+    }
+    
+
+    #spec_img_div
+    {
+        display: none;
+    }
+
+    #gen_img_div
+    {
+        display: none;
+    }
+}

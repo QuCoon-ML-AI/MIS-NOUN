@@ -1,0 +1,33 @@
+.login_button
+{
+    width:20%;
+}
+
+.appl_left_child_div_child
+{
+    display:flex; 
+    flex-flow: row;
+    justify-content: flex-start;
+    gap:4px;
+    flex:100%;
+    height:auto; 
+    text-align:left;
+}
+
+.red-effect:hover
+{
+    color: #eb0c27;
+}
+
+@media screen and (max-width: 800px) 
+{
+    .login_button
+    {
+        width:95%;
+    }
+
+    .data_line_logout
+    {
+        width:98%;
+    }
+}

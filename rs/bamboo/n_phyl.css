@@ -1,0 +1,182 @@
+.appl_left_child_div_child
+{
+    display:flex; 
+    flex-flow: row;
+    justify-content: flex-start;
+    gap:4px;
+    flex:100%;
+    height:auto; 
+    text-align:left;
+    margin-bottom:4px;
+    text-align: justify;
+}
+
+.login_button
+{
+    width:20%;
+}
+
+#menu_bs_scrn
+{
+    display:block;
+}
+
+#mobile_menu
+{
+    display:none;
+}
+
+#menu_div
+{
+    display:flex;
+    text-align: left;
+    width:98.7%;
+    background-color:#ffffff;
+}
+
+#m_menu_div
+{
+    display:none;
+}
+
+.appl_left_div 
+{
+    flex: 17%;
+}
+
+.appl_right_div 
+{
+    flex: 81%;
+}
+
+#intro_video
+{
+    width:525px;
+}
+
+#std_quali
+{
+    width: 170px;
+}
+
+#fee_msg
+{
+    line-height:2.5;
+}
+
+
+#phil_div
+{
+    height:auto;
+    line-height:1.8;
+    padding:3px;
+    text-align: center;
+    margin-top:5px;
+}
+
+.middle_left, .middle_left
+{
+    display:flex;
+}
+
+.inlin_message_color
+{
+    line-height: 2;
+}
+
+.for_sm
+{
+    display: none;
+}
+
+@media screen and (max-width: 800px) 
+{
+    .appl_left_child_div_child
+    {
+        flex-direction: column;
+    }
+
+    .calendar_grid
+    {
+        flex-direction: row;
+        flex-flow: nowrap;
+        line-height: 1.4;
+        white-space:normal;
+        text-overflow: ellipsis;
+    }
+
+    .appl_left_child_div_child > div
+    {
+        flex:100%;
+    }
+    .login_button
+    {
+        width:95%;
+    }                
+
+    #menu_bs_scrn
+    {
+        display:none;
+    }
+
+    .std_menu_cls
+    {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    #mobile_menu
+    {
+        display:block;
+    }
+
+    #menu_div
+    {
+        display:none;
+    }
+
+    #m_menu_div
+    {
+        /* display:flex; */
+        background-color: #FFFFFF;
+        width:70vw;
+    }
+
+    
+    .mm2_button
+    {
+        text-align: left;
+        background-color: #FFFFFF;
+    }
+
+    #intro_video
+    {
+        width:70vw;
+    }
+
+    #std_quali
+    {
+        width: 100%;
+    }
+
+    #fee_msg
+    {
+        line-height:1.5;
+    }
+
+    ul ul {
+        left:10px;
+        width:160px;
+    }
+
+    .middle_left, .middle_right
+    {
+        display:none;
+    }
+
+    .for_sm
+    {
+        display: flex;
+    }
+    
+}

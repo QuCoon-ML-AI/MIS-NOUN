@@ -1,0 +1,129 @@
+.appl_left_child_div_child
+{
+    display:flex; 
+    flex-flow: row;
+    justify-content: flex-start;
+    gap:4px;
+    flex:100%;
+    height:auto; 
+    text-align:left;
+    margin-bottom:4px;
+}
+.login_button
+{
+    width:20%;
+}
+
+#menu_bs_scrn
+{
+    display:block;
+}
+
+#menu_sm_scrn
+{
+    display:none;
+}
+
+#mobile_menu
+{
+    display:none;
+}
+
+#menu_div
+{
+    display:flex;
+    text-align: left;
+    width:98.7%;
+    background-color:#ffffff;
+}           
+
+
+.appl_left_div 
+{
+    flex: 17%;
+}
+
+.appl_right_div 
+{
+    flex: 81%;
+}
+
+#intro_video
+{
+    width:525px;
+}
+
+#std_quali
+{
+    width: 170px;
+}
+
+@media screen and (max-width: 800px) 
+{
+    .appl_left_child_div_child
+    {
+        flex-direction: column;
+    }
+
+    .calendar_grid
+    {
+        flex-direction: row;
+        flex-flow: nowrap;
+        line-height: 1.4;
+        white-space:normal;
+        text-overflow: ellipsis;
+    }
+
+    .appl_left_child_div_child > div
+    {
+        flex:100%;
+    }
+    .login_button
+    {
+        width:95%;
+    }                
+
+    #menu_bs_scrn
+    {
+        display:none;
+    }
+    
+    #menu_sm_scrn
+    {
+        display:block;
+    }
+
+    .std_menu_cls
+    {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    #mobile_menu
+    {
+        display:block;
+    }
+
+    #menu_div
+    {
+        display:none;
+        background-color: #ebebeb;
+        width:70vw;
+    }
+
+    .mm2_button
+    {
+        text-align: left;
+        background-color: #ebebeb;
+    }
+
+    #intro_video
+    {
+        width:70vw;
+    }
+
+    #std_quali
+    {
+        width: 100%;
+    }
+}

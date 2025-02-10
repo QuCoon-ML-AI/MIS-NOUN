@@ -1,0 +1,42 @@
+#conf_box_loc
+{
+    width:370px;
+}
+
+.appl_left_child_div_child
+{
+    display:flex; 
+    flex-flow: row;
+    justify-content: flex-start;
+    gap:4px;
+    flex:100%;
+    height:auto; 
+    text-align:left;
+    margin-bottom:4px;
+}
+    
+.login_button
+{
+    width:20%;
+}
+
+
+
+.lbl_beh:hover
+{
+    color:#860000;
+    font-weight:bold;
+}
+
+@media screen and (max-width: 800px) 
+{
+    #conf_box_loc
+    {
+        width:85vw;
+    }
+    
+    .login_button
+    {
+        width:100%;
+    }
+}

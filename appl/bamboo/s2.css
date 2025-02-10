@@ -1,0 +1,48 @@
+.appl_left_child_div_child
+{
+    display:flex; 
+    flex-flow: row;
+    justify-content: flex-start;
+    gap:4px;
+    flex:100%;
+    height:auto; 
+    text-align:left;
+    margin-bottom:4px;
+}
+.login_button
+{
+    width:20%;
+}
+
+#dBirthDate
+{
+    width:99%;
+}
+    
+.align_pp
+{
+    text-align:right;
+}
+
+@media screen and (max-width: 800px) 
+{
+    .login_button
+    {
+        width:95%;
+    }
+
+    .login_button
+    {
+        width:100%;
+    }
+    
+    #dBirthDate
+    {
+        width:95%;
+    }
+    
+    .align_pp
+    {
+        text-align:center;
+    }
+}

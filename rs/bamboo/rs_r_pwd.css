@@ -1,0 +1,55 @@
+input[type=number]
+{
+    width: 99.8%;
+    padding: 2px 0px 6px 0px;
+    text-indent:8px;
+    height:45px;
+    border-radius:5px;
+    border:1px solid #b6b6b6
+}
+
+input[type=text],select
+{
+    width: 99.8%;
+    padding: 2px 0px 6px 0px;
+    text-indent:8px;
+    border-radius:5px;
+    height:45px;
+    border:1px solid #b6b6b6;
+    font-size: 13px;
+}
+
+input[type=password]
+{
+    width: 99.8%;
+    padding: 2px 0px 6px 0px;
+    text-indent:8px;
+    border-radius:5px;
+    height:45px;
+    border:1px solid #b6b6b6
+}
+
+#logo_pix
+{
+    width:90px; 
+    height:100px;
+}
+
+#valicode
+{
+    width:91.5%;
+}
+
+@media screen and (max-width: 800px) 
+{
+    #logo_pix
+    {
+        width:98px; 
+        height:120;
+    }
+
+    #valicode
+    {
+        width:81.5%;
+    }
+}
